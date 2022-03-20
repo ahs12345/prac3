@@ -15,14 +15,14 @@
 using namespace std;
 
 int main() {
-    Human player1;
+    Avalanche player1;
     Avalanche player2;
-    Bureaucrat player3;
-    Toolbox player4;
-    Crescendo player5;
-    PaperDoll player6;
-    RandomComputer player7;
-    FistfullODollars player8;
+    Avalanche player3;
+    Avalanche player4;
+    Avalanche player5;
+    Bureaucrat player6;
+    Avalanche player7;
+    Avalanche player8;
     
 
     array<Player *, 8> myArray = {&player1, &player2, &player3, &player4, &player5, &player6, &player7, &player8};

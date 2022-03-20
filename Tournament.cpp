@@ -19,7 +19,8 @@ Player* Tournament::run(array<Player *, 8>  competitors) {
 }
 
 Player* Tournament::winner(Player *player1, Player *player2){
-    int player1W, player2W = 0;
+    int player1W =0; 
+    int player2W = 0;
 
     for (int i =0; i<5;i++){
         Referee myReferee;
