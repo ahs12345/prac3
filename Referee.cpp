@@ -2,11 +2,11 @@
 #include "Human.h"
 #include "Referee.h"
 
+
     Referee::Referee(){}
     char Referee::refGame(Player *player1, Player *player2){
         char humanMove = player1->makeMove();
         char computerMove = player2->makeMove();
-
         switch(humanMove){
             case 'R':
                 switch(computerMove) {

@@ -11,13 +11,13 @@ char FistfullODollars::makeMove(){
     }
     switch(count % 3){
         case 0:
-            return 'P';
+            return 'R';
             break;
         case 1:
-            return 'S';
+            return 'P';
             break;
         default: 
-        return 'R';
+        return 'P';
 
     }
 } 
