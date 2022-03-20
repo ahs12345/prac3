@@ -1,7 +1,7 @@
 #ifndef BUREAUCRAT_H
 #define BUREAUCRAT_H
-#include "Computer.h"
-class Bureaucrat: public Computer{
+#include "Player.h"
+class Bureaucrat: public Player{
     public:
     Bureaucrat();
     char makeMove();  

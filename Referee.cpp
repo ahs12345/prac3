@@ -1,9 +1,9 @@
-#include "Computer.h"
+#include "Player.h"
 #include "Human.h"
 #include "Referee.h"
 
     Referee::Referee(){}
-    char Referee::refGame(Human *player1, Computer *player2){
+    char Referee::refGame(Player *player1, Player *player2){
         char humanMove = player1->makeMove();
         char computerMove = player2->makeMove();
 

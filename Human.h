@@ -1,6 +1,7 @@
 #ifndef HUMAN_H
 #define HUMAN_H
-class Human{
+#include "Player.h"
+class Human : public Player{
     public:
     Human();
     char makeMove();  
